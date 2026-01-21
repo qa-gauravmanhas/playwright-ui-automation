@@ -1,8 +1,29 @@
-
-# Playwright
+# Node dependencies
 node_modules/
+
+# Playwright generated files
 /test-results/
-/playwright-report/
-/blob-report/
-/playwright/.cache/
-/playwright/.auth/
+playwright-report/
+blob-report/
+playwright/.cache/
+playwright/.auth/
+
+# Environment files
+.env
+.env.*                  # e.g., .env.dev, .env.test
+
+# TypeScript build output
+dist/
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# IDE / editor configs
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Optional OS-specific files
+.DS_Store
+Thumbs.db
