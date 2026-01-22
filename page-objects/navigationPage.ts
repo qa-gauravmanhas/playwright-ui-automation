@@ -1,5 +1,8 @@
 import type { Page } from "@playwright/test";
 
+// Represents the left navigation bar and exposes high-level navigation actions
+// Tests should not interact with nav locators directly
+
 export class NavigationPage {
   readonly page: Page;
 
